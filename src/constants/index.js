@@ -155,7 +155,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://github.com/Hanan-Nawaz/NUMLPay/blob/main/Documentation/Logo/NUMLPAY.png",
+      image: "https://github.com/Hanan-Nawaz/NUMLPay/blob/main/Documentation/Logo/NUMLPAY.png?raw=true",
       source_link: "https://github.com/Hanan-Nawaz/NUMLPay",
       source_code_link: "https://github.com/Hanan-Nawaz/NUMLPay",
     },
