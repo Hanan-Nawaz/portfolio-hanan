@@ -155,9 +155,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://github.com/Hanan-Nawaz/NUMLPay/blob/WebApp/NUMLPay-WebApp/images/logo.png?raw=true",
-      source_link: "https://github.com/Hanan-Nawaz/NUMLPay/tree/WebApp",
-      source_code_link: "https://github.com/Hanan-Nawaz/NUMLPay/tree/WebApp",
+      image: "https://github.com/Hanan-Nawaz/NUMLPay/blob/main/Documentation/Logo/NUMLPAY.png",
+      source_link: "https://github.com/Hanan-Nawaz/NUMLPay",
+      source_code_link: "https://github.com/Hanan-Nawaz/NUMLPay",
     },
     {
       name: "PyBanking",
