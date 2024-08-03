@@ -3,18 +3,22 @@ import { useEffect, useState } from "react";
 import "./Footer.scss";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
 
     return (
         <div className="footer text-center">
         <p> 
-          &#x3c;&#47;&#x3e; with ❤️ by
+          &copy; {currentYear} 
           <a href="http://hanannawaz.me" target="_blank">
             {" "}
-            Abdul Hanan Nawaz  {" "}
+            hanannawaz.me  {"  "}
           </a>
-          😎
+          All Rights Reserved.
         </p>
-        {/* <p className="pink-text-gradient">No. of Visitors | <img className="visitcounter" src="https://hitwebcounter.com/counter/counter.php?page=9795911&style=0025&nbdigits=5&type=page&initCount=459" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></p> */}
+        <p className="pink-text-gradient">Theme by <a href="https://github.com/shinchancode" target="_blank">
+            {" "}
+            shinchancode
+          </a></p>
 
       </div>
     );
