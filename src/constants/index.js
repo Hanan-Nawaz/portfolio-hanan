@@ -136,7 +136,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis/blob/main/Supporting%20Material/logo.png",
+      image: "https://raw.githubusercontent.com/Hanan-Nawaz/Pakistani_Universities_Analysis/main/Supporting%20Material/logo.png",
       source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/Pakistani_Universities_Analysis/Dashboard1?publish=yes",
       source_code_link: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis",
     },
