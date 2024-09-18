@@ -17,7 +17,10 @@ import {
       link: "https://www.hackerrank.com/profile/hanannawaz0",
       icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
     },
-    
+    {
+      link: "https://www.datacamp.com/portfolio/hanannawaz-dev",
+      icon: "data:image/webp;base64,UklGRgIDAABXRUJQVlA4IPYCAABQEQCdASo4ADgAPjEKjEYiEREMACADBLQAW4CAHPKfH8B+MHOf8n91cP4YHulX5gP1y/Y7hAP6l/Wutr9BTyyv2M+E79hv2i9kKjoN53nH3kD+lPYA6QHoMDq09DJgsyUuwXPnkEp4BN9IUGWJARMSTNd51WsbDWm7I/3PjcOUNcn62loP7Yl9vvkPeQMq5n2Z5mQA/t5XsP+vX8j0sOvArN6GiKjQef87BIvk/6gjG/h/7cj9ww+4YeVn/yG8vkDK8v/1vkOD5HJtbyTJYm/Q0tfUOYKglZcpA3gm1KqvOkFiTZK3jAqevVmsUSAwP/6rrp1q45n/kpKfelKxkk6Lbof/EH9R7wZ4NTZePSBNpULUdtH51fUi5Zhul20MmrRtm7P1cgG7vpD6WOKc06hgFOfjAaUlr7BPWh8J09q6lTdVJPOEe629Wuw4t3fwHVNyeXc95ZKkZe/8m/Gv2/FQcxVqlyd+flYgfSGkzga931ryLIEDAfIqCn95vtz4VBGSbHGrS/8WUC0RykfObYGtoN+w41k1u3H5apeB5r4q38zvsTHoL+Gv3hE3UF/XWqqX/UblrA1Bg9P9A/75x1BEmyoL2t0xWWNLF3b7N8eJ2Nsc4HzQMZh6Xn3owtwfYOGgyq3Ioc1FwYl9o9dkJU5fQHI6lICH2yfaR8rMM5PrKeZLMnf1fXf1OJ6PIs6On+ov48hRooDBT9JfMDjX/HJfmhWDSCIXIHgaxR515/5Cgr7qjuV3Qb3TS1f9RPq0npvXJ3/xsjbfOp22jzx8kzC0aOa65+BuVl2QX0h4xCeA6/kP4KWs9ZyHuBS1HkYonUJ/Y7fulKcqkPLfyPqEBXc1ZhiaEkJ3FJHLGwY9ZkOFz/e/7yZm+SA4kdbzMWx9l8zXfRbz+NEz6rvPdjTr3J3NfV0Ded2QIG+JdT4p6jblCw13adUYGEuXiS/+w1ugCc8pm5xnaAnEgHOvbGjxk2YgXWrqZ7JRqhCc+R9sI0wTzNSO3AAAAA==",
+    },
   ];
 
   const achievements = [
@@ -114,6 +117,28 @@ import {
       image: "https://raw.githubusercontent.com/Hanan-Nawaz/FlightTragedyAnalysis/main/data_model/flight-tragedy-analysis-logo.jpg",
       source_link: "https://github.com/Hanan-Nawaz/FlightTragedyAnalysis",
       source_code_link: "https://github.com/Hanan-Nawaz/FlightTragedyAnalysis",
+    },
+    {
+      name: "Pakistani University Analysis ",
+      description:
+      "The Pakistani Universities Analysis project processes and visualizes data on higher education in Pakistan. It uses an ETL pipeline to extract data from Kaggle, clean and transform it in Python, and load it into a MySQL database. The data is visualized in Tableau, showing sectors (public/private), establishment trends, and distribution.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tableau",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis/blob/main/Supporting%20Material/logo.png",
+      source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/Pakistani_Universities_Analysis/Dashboard1?publish=yes",
+      source_code_link: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis",
     },
     {
       name: "Daraz Price Comparator 🌐🛍️",
