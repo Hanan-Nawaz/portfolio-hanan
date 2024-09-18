@@ -38,6 +38,17 @@ jobs:
     if: github.ref == 'refs/heads/main'
 
     steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+          path: ./dist
+
+      - name: Remove existing files
+        run: |
+          rm -rf ./dist/*
+          echo "Cleared existing files from gh-pages"
+
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
