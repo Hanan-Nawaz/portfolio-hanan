@@ -24,11 +24,15 @@ import {
   ];
 
   const achievements = [
+    
     {
       title: "💰📚 Awarded the 2024 Merit Scholarship from NUML for achieving one of the highest percentages in the batch.",
     },
     {
       title: "🥇 1st Position : My FYP project, NUMLPay made a remarkable impact at the NUML open house and job fair 2024, securing the first position.",
+    },
+    {
+        title: "💻 Received a laptop through the Prime Minister Youth Program of Pakistan (2023).",
     },
     {
       title: "🏆 Shortlisted in AIEF 1st National AI Championship 2023 : My FYP project, NUMLPay selected in AIEF, held at LUMS, organized by Soliton Technology.",
@@ -63,20 +67,8 @@ import {
       icon: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Spark-logo-192x100px.png",
     },
     {
-      name: "Apache Kafka",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Apache_kafka_wordtype.svg/240px-Apache_kafka_wordtype.svg.png",
-    },
-    {
       name: "Apache Airflow",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/AirflowLogo.png/240px-AirflowLogo.png",
-    },
-    {
-      name: "Snowflake",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Snowflake_Logo.svg/440px-Snowflake_Logo.svg.png",
-    },
-    {
-      name:"AWS",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png",
     },
     {
       name: "git",
@@ -96,6 +88,50 @@ import {
   ];
 
   export const deProject = [
+      {
+      name: "NUML Faculty Analysis ",
+      description:
+          "This project analyzes faculty data from NUML's CS and SE departments, comparing the number of faculty, designations (e.g., Lecturers, Assistant and Associate Professors), and PhD qualifications. It also includes a detailed list of all faculty members with their designations, departments, and contact information.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tableau",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://raw.githubusercontent.com/Hanan-Nawaz/NUML_Faculty_Analysis/main/Supporting%20Material/logo.png",
+      source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/NUML_Faculty_Analysis/Dashboard1?publish=yes",
+      source_code_link: "https://github.com/Hanan-Nawaz/NUML_Faculty_Analysis",
+    },
+      {
+      name: "Pakistani University Analysis ",
+      description:
+      "The Pakistani Universities Analysis project processes and visualizes data on higher education in Pakistan. It uses an ETL pipeline to extract data from Kaggle, clean and transform it in Python, and load it into a MySQL database. The data is visualized in Tableau, showing sectors (public/private), establishment trends, and distribution.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tableau",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "https://raw.githubusercontent.com/Hanan-Nawaz/Pakistani_Universities_Analysis/main/Supporting%20Material/logo.png",
+      source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/Pakistani_Universities_Analysis/Dashboard1?publish=yes",
+      source_code_link: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis",
+    },
     {
       name: "Flight Tragedy Analysis ",
       description:
@@ -117,28 +153,6 @@ import {
       image: "https://raw.githubusercontent.com/Hanan-Nawaz/FlightTragedyAnalysis/main/data_model/flight-tragedy-analysis-logo.jpg",
       source_link: "https://github.com/Hanan-Nawaz/FlightTragedyAnalysis",
       source_code_link: "https://github.com/Hanan-Nawaz/FlightTragedyAnalysis",
-    },
-    {
-      name: "Pakistani University Analysis ",
-      description:
-      "The Pakistani Universities Analysis project processes and visualizes data on higher education in Pakistan. It uses an ETL pipeline to extract data from Kaggle, clean and transform it in Python, and load it into a MySQL database. The data is visualized in Tableau, showing sectors (public/private), establishment trends, and distribution.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "sql",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tableau",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: "https://raw.githubusercontent.com/Hanan-Nawaz/Pakistani_Universities_Analysis/main/Supporting%20Material/logo.png",
-      source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/Pakistani_Universities_Analysis/Dashboard1?publish=yes",
-      source_code_link: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis",
     },
     {
       name: "Daraz Price Comparator 🌐🛍️",
@@ -626,7 +640,7 @@ import {
     {
       title: "Junior Data Engineer",
       company_name: "GrowUp Tech Solutions",
-      icon: "https://media.licdn.com/dms/image/C560BAQG97ie6CXj7Jg/company-logo_200_200/0/1646708030683?e=1730937600&v=beta&t=0gc-2yIS6ww920xnm40wuLxoxJaGSJpqWtkdCd1q7eI",
+      icon: "https://www.growup.solutions/assets/images/logo-icon.jpeg",
       iconBg: "#ffff",
       date: "Aug 2023 - Oct 2023",
       link: "",
@@ -635,20 +649,6 @@ import {
         "Analyzed data in Data Warehouse using SQL and Python and provided stakeholders with visibility into the stats about grow station in Power Bi dashboard.",
       ],
       link: "https://www.linkedin.com/in/abdulhanan0/overlay/1635546042749/single-media-viewer/?profileId=ACoAADbulhYBHKgrbiYnuIrYCDwbMm7ns0GpJk8",
-    },
-    {
-      title: "Full Stack Developer (Intern)",
-      company_name: "App Vizta Pvt Ltd.",
-      icon: "https://media.licdn.com/dms/image/C4D0BAQF03K_Nyd6xig/company-logo_200_200/0/1669316496093?e=1730937600&v=beta&t=e_zoMdk92rCDM4YcSIJ4u5ZxZFf076sdeda85XhBJQw",
-      iconBg: "#000000",
-      date: "Mar 2023 - Apr 2023",
-      link: "",
-      points: [
-        "Successfully contributed to the completion of two distinct projects: a Charity Web App and an Email Integration system.",
-        "Demonstrated expertise in full-stack development, showcasing the ability to work with a wide range of technologies",
-        "Delivered high-quality solutions, highlighting my capacity to translate project requirements into functional and user-friendly applications.",
-      ],
-      link: "https://media.licdn.com/dms/image/D4D2DAQGRW6E8xQ4DlA/profile-treasury-image-shrink_1280_1280/0/1684873485637?e=1723212000&v=beta&t=JlrhfXM4K5o-v-UH5WEuC9K27nGT2zWSoR5w_RjCO7k",
     },
     {
       title: "Full Stack Developer (Intern)",
