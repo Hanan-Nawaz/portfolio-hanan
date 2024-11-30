@@ -1,6 +1,6 @@
 import {
     mongodb,git,
-    clg, school, uni,
+    clg, school, uni, growup
   } from "../assets";
 
   const profiles = [
@@ -106,7 +106,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://raw.githubusercontent.com/Hanan-Nawaz/NUML_Faculty_Analysis/main/Supporting%20Material/logo.png",
+      image: "https://raw.githubusercontent.com/Hanan-Nawaz/NUML_Faculty_Analysis/main/Supporting%20Material/workflow.png",
       source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/NUML_Faculty_Analysis/Dashboard1?publish=yes",
       source_code_link: "https://github.com/Hanan-Nawaz/NUML_Faculty_Analysis",
     },
@@ -128,7 +128,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://raw.githubusercontent.com/Hanan-Nawaz/Pakistani_Universities_Analysis/main/Supporting%20Material/logo.png",
+      image: "https://raw.githubusercontent.com/Hanan-Nawaz/Pakistani_Universities_Analysis/main/Supporting%20Material/workflow.png",
       source_link: "https://public.tableau.com/app/profile/abdul.hanan.nawaz/viz/Pakistani_Universities_Analysis/Dashboard1?publish=yes",
       source_code_link: "https://github.com/Hanan-Nawaz/Pakistani_Universities_Analysis",
     },
@@ -150,7 +150,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://raw.githubusercontent.com/Hanan-Nawaz/FlightTragedyAnalysis/main/data_model/flight-tragedy-analysis-logo.jpg",
+      image: "https://raw.githubusercontent.com/Hanan-Nawaz/FlightTragedyAnalysis/refs/heads/main/FlightTragedyAnalysis-roadmap.png",
       source_link: "https://github.com/Hanan-Nawaz/FlightTragedyAnalysis",
       source_code_link: "https://github.com/Hanan-Nawaz/FlightTragedyAnalysis",
     },
@@ -172,7 +172,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://github.com/Hanan-Nawaz/Daraz-Price-Comparator/raw/main/process-imgs/daraz-price-comparator-logo.gif",
+      image: "https://github.com/Hanan-Nawaz/Daraz-Price-Comparator/raw/main/process-imgs/daraz-price-comparator-process.png",
       source_link: "https://github.com/Hanan-Nawaz/Daraz-Price-Comparator",
       source_code_link: "https://github.com/Hanan-Nawaz/Daraz-Price-Comparator",
     },
@@ -640,7 +640,7 @@ import {
     {
       title: "Junior Data Engineer",
       company_name: "GrowUp Tech Solutions",
-      icon: "https://www.growup.solutions/assets/images/logo-icon.jpeg",
+      icon: growup,
       iconBg: "#ffff",
       date: "Aug 2023 - Oct 2023",
       link: "",
