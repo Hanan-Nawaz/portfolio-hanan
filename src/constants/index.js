@@ -1,6 +1,6 @@
 import {
     mongodb,git,
-    clg, school, uni, growup
+    clg, school, uni
   } from "../assets";
 
   const profiles = [
@@ -640,7 +640,7 @@ import {
     {
       title: "Junior Data Engineer",
       company_name: "GrowUp Tech Solutions",
-      icon: growup,
+      icon: "https://raw.githubusercontent.com/Hanan-Nawaz/Hanan-Nawaz/refs/heads/main/Supporting%20Material/growup.jpg",
       iconBg: "#ffff",
       date: "Aug 2023 - Oct 2023",
       link: "",
