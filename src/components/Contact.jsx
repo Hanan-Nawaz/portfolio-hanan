@@ -5,7 +5,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { MdEmail } from "react-icons/md";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsPhone, BsPhoneLandscape, BsTelephone, BsWhatsapp } from "react-icons/bs";
 import "./Contact.scss";
 
 const Contact = () => {
@@ -93,9 +93,9 @@ const Contact = () => {
             <a href="mailto:hanannawaz0@gmail.com" target="_blank" className="blue-text-gradient">hanannawaz0@gmail.com</a>
           </article>
           <article className="contact__option">
-            <BsWhatsapp />
-            <a href="https://api.whatsapp.com/send/?phone=3447818963&text&app_absent=0&lang=en" target="_blank" className="blue-text-gradient">
-              +92 3447818963
+            <BsTelephone />
+            <a href="tel:4915217686007" target="_blank" className="blue-text-gradient">
+              +49 1521 7686007
             </a>
           </article>
         </div>

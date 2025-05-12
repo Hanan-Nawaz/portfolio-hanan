@@ -7,7 +7,7 @@ import {AiOutlineGithub } from "react-icons/ai";
 import {ImLinkedin} from "react-icons/im";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {BiLinkAlt} from "react-icons/bi";
-import {hanan} from "../assets";
+import {hanan, hanan1} from "../assets";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' Freelance Data Engineer ', "Coder ", " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: [' Software Engineer ', "IT Support Engineer ", " Coder ", " Tech Enthusiast "] })
   },[]);
 
   return (
@@ -61,7 +61,7 @@ const Hero = () => {
       </div>
       </div>
       <div className="imgcontainer1 absolute violet-gradient">
-        <img src={hanan} alt="" className="object-contain"/>
+        <img src={hanan1} alt="" className="object-contain"/>
       </div>
       </div>
 

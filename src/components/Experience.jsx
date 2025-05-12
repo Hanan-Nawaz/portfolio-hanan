@@ -51,9 +51,7 @@ const ExperienceCard = ({ experience }) => {
             {point}
           </li>
         ))}
-          <a href={experience.link} className="align-center flex justify-center blue-text-gradient" target="_blank">
-            LINK
-          </a>
+          
       </ul>
     </VerticalTimelineElement>
   );
@@ -62,13 +60,16 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div id="experience" variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
+ 
+
+   <motion.div id="experience"
+        whileInView={{ opacity: 1, x: 0 }} // animation when in view
+        initial={{ opacity: 0, x: -100 }}  // starting position off-screen
+        transition={{ duration: 0.5, ease: "easeInOut" }} // smooth transition
+        variants={textVariant()} // assuming this returns valid variants
+        className={`${styles.sectionSubText} ${styles.sectionHeadText}`} // styling
+      >        <p className={`${styles.sectionSubText} `}>What I have done so far</p>
+        <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>

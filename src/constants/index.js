@@ -1,26 +1,26 @@
 import {
     mongodb,git,
-    clg, school, uni
+    clg, school, uni,
+    sql_cert
   } from "../assets";
 
   const profiles = [
 
-    {
-      link: "https://www.coursera.org/account/accomplishments/verify/ZVRTJ85WD62L",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/109px-Python-logo-notext.svg.png",
+   {
+      name: "Front-End Web Development with React",
+      description:
+          "This course teaches you how to build dynamic and responsive user interfaces using React, a powerful JavaScript library for front-end development. You'll learn core concepts such as component-based architecture, state management, and React hooks to create clean, maintainable code. By the end of the course, you'll be able to develop real-world web applications with modern tools and best practices.",
+      image: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~AHGV584788RN/CERTIFICATE_LANDING_PAGE~AHGV584788RN.jpeg",
+      source_link: "https://www.coursera.org/account/accomplishments/verify/AHGV584788RN",
     },
-    {
-      link: "https://www.coursera.org/account/accomplishments/verify/R72S7RLQ2RKU",
-      icon: "https://img.icons8.com/color/480/000000/mysql-logo.png",
+   {
+      name: "SQL (Advanced) Certificate",
+      description:
+        " Earned certification by completing advanced SQL challenges on HackerRank, demonstrating strong proficiency in data querying and manipulation. Covered complex topics such as subqueries, joins, aggregation, window functions, and performance optimization. Validated ability to write efficient, production-ready SQL for real-world data problems",
+      image: sql_cert,
+      source_link: "https://www.hackerrank.com/certificates/67fffada6913",
     },
-    {
-      link: "https://www.hackerrank.com/profile/hanannawaz0",
-      icon: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/344/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png",
-    },
-    {
-      link: "https://www.datacamp.com/portfolio/hanannawaz-dev",
-      icon: "data:image/webp;base64,UklGRgIDAABXRUJQVlA4IPYCAABQEQCdASo4ADgAPjEKjEYiEREMACADBLQAW4CAHPKfH8B+MHOf8n91cP4YHulX5gP1y/Y7hAP6l/Wutr9BTyyv2M+E79hv2i9kKjoN53nH3kD+lPYA6QHoMDq09DJgsyUuwXPnkEp4BN9IUGWJARMSTNd51WsbDWm7I/3PjcOUNcn62loP7Yl9vvkPeQMq5n2Z5mQA/t5XsP+vX8j0sOvArN6GiKjQef87BIvk/6gjG/h/7cj9ww+4YeVn/yG8vkDK8v/1vkOD5HJtbyTJYm/Q0tfUOYKglZcpA3gm1KqvOkFiTZK3jAqevVmsUSAwP/6rrp1q45n/kpKfelKxkk6Lbof/EH9R7wZ4NTZePSBNpULUdtH51fUi5Zhul20MmrRtm7P1cgG7vpD6WOKc06hgFOfjAaUlr7BPWh8J09q6lTdVJPOEe629Wuw4t3fwHVNyeXc95ZKkZe/8m/Gv2/FQcxVqlyd+flYgfSGkzga931ryLIEDAfIqCn95vtz4VBGSbHGrS/8WUC0RykfObYGtoN+w41k1u3H5apeB5r4q38zvsTHoL+Gv3hE3UF/XWqqX/UblrA1Bg9P9A/75x1BEmyoL2t0xWWNLF3b7N8eJ2Nsc4HzQMZh6Xn3owtwfYOGgyq3Ioc1FwYl9o9dkJU5fQHI6lICH2yfaR8rMM5PrKeZLMnf1fXf1OJ6PIs6On+ov48hRooDBT9JfMDjX/HJfmhWDSCIXIHgaxR515/5Cgr7qjuV3Qb3TS1f9RPq0npvXJ3/xsjbfOp22jzx8kzC0aOa65+BuVl2QX0h4xCeA6/kP4KWs9ZyHuBS1HkYonUJ/Y7fulKcqkPLfyPqEBXc1ZhiaEkJ3FJHLGwY9ZkOFz/e/7yZm+SA4kdbzMWx9l8zXfRbz+NEz6rvPdjTr3J3NfV0Ded2QIG+JdT4p6jblCw13adUYGEuXiS/+w1ugCc8pm5xnaAnEgHOvbGjxk2YgXWrqZ7JRqhCc+R9sI0wTzNSO3AAAAA==",
-    },
+  
   ];
 
   const achievements = [
@@ -51,8 +51,32 @@ import {
   
   const technologies = [
     {
-      name: "Python",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/109px-Python-logo-notext.svg.png",
+      name: "JavaScript",
+      icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAe1BMVEXw208yMzDx32fw3FPx3mIwMTD44lAoKy9/djs1NjDy3U8sLi/75VH14FAhJS4mKS8cIS5lXjYVHC6Jfzzk0E2/r0YPGC13bznbyEtNSjNgWjYAEC2ZjT/KuUjDs0atn0KlmEFsZTi1pkTTwUnz4Xc/PjFVUTSQhT1IRTIylFD+AAADJUlEQVRoge2Y2ZajIBCGtbsFg4A04hKjictkef8nHIyoaJyJacw5fWHdGfETi6q/qmJ9vM/+WOh99mW90Tb4Bt/gG3yDb/ANvsE3+Abf4Bt8g/9meDsYGsEBVjYhAyCSuq4FAFP+cjjJ0u/WdAYBuXv2KGPU28UhID+EA5d6jUFHg4PjOYKOfTcH8nM12v0rcNgydv3zCLhckRWfx0Sjm8ARSqk9MZpqJ2sCB8EDW9Lj4cAN4Cg/PLJtm5/6UzWA44vXuZpyTrsL37G6T/s5HCWs88T+lOeny91HDis/e6f/HE5OyuN+DAhCBBeRfI8d4jUOtL+2RfsDzjh3LT2NDOBl62Uv7cKDlDkeKcCacEQm4mIAj7tra0YQTeFXXwXLFf+DbhAtVReK8hgf1NYQjgTvktLfFbN4kwwtYUd3KA3EI95EW5JIkxSfl/kUb6SKGdPotsf2E7xRsQDxiG57UZqAteCyEkXOGM8KsE6xkIYr3x/RbV6SFVSxNSLcAxzR6XfvGVO4hXASQ6o7hwUd3Rje4EXmMG+gHxK0GryRQ1LtB7xXghXhVtN5hbe+F4CqfKwFb/BBr2THteEyLtUKm2ZkEXzon+aSiIxqDxJq61DFyxM4EaJXkr7ydDWYoIILnY5VQkF3ARzhEyz78pu24eCcsbp5vDF40asQoYvhCNQX7rCwXYg+1ZNtQUYg+W50xdeyHYR0qc8JCrjXdN0JaIYSfKWaQ5G4stZLNBW4mVnkisRWicrCJ3BSwZbmsEJYVuL2cRaiBt61/FII3Vr+YCXXvlf3n8U5GSoBjaRS9+rE7gFEqqEMQU7PNyfq5XFBhpLdIBeaLlEVZjjWm3NHV65D/VRbUD0uM4riqU+eGyvUpwVdgP0nWkA109wfwi7KJX3u7VLPFzX/INSF9L5vfhpqJMIZg1O0HLnAskpEkn2k4R3m53r9tWSsH6DubY954eIaKrMwlbEApfmM7YtpGytjO7jJAbdZACn30gq80p8jII5ZEMduViWEzN1HSdUsiIMiFy9P0HIiAdLIdNfDAnJf0Mwukzu//y+RDf6KoS/r83328Rer3zeMCluSWgAAAABJRU5ErkJggg==",
+    },
+    {
+      name: "Node js",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1180px-Node.js_logo.svg.png",
+    },
+    {
+      name: "React js",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/500px-React-icon.svg.png",
+    },
+    {
+      name: "HTML",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/500px-HTML5_logo_and_wordmark.svg.png",
+    },
+    {
+      name: "CSS",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Official_CSS_Logo.svg/1200px-Official_CSS_Logo.svg.png",
+    },
+    {
+      name: "Bootstrap",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/500px-Bootstrap_logo.svg.png",
+    },
+    {
+      name: "Tailwind",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/500px-Tailwind_CSS_logo.svg.png",
     },
     {
       name: "SQL",
@@ -63,12 +87,16 @@ import {
       icon: mongodb,
     },
     {
-      name: "Apache Spark",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Spark-logo-192x100px.png",
+      name: "Linux",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/330px-Tux.svg.png",
     },
     {
-      name: "Apache Airflow",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/AirflowLogo.png/240px-AirflowLogo.png",
+      name: "Python",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/300px-Python-logo-notext.svg.png",
+    },
+    {
+      name: "IT Support",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robot_arm_icon.svg/1280px-Robot_arm_icon.svg.png",
     },
     {
       name: "git",
@@ -78,8 +106,8 @@ import {
 
   const list = [
     {
-      id: "dataengineering",
-      title: "Data Engineering",
+      id: "softwareengineering",
+      title: "Software Engineering",
     },
     {
       id: "other",
@@ -87,7 +115,7 @@ import {
     },
   ];
 
-  export const deProject = [
+  export const webProject = [
       {
       name: "NUML Faculty Analysis ",
       description:
@@ -244,7 +272,7 @@ import {
     },
   ];
   
-  export const webProject = [
+  export const deProject = [
     {
       name: "A Charity Website",
       description:
@@ -624,48 +652,89 @@ import {
   
   const experiences = [
     {
-      title: "Working Student Data Engineer",
-      company_name: "ITCON, NUML",
-      icon: uni,
-      iconBg: "#383E56",
-      date: "Nov 2023 - May 2024",
-      link: "",
-      points: [
-        "Developed and deployed a robust job portal for NUML, ensuring seamless user experience and efficient job matching processes.",
-        "Designed and optimized ETL workflows to manage and process internal job-related data, ensuring data integrity, security, and high performance, resulting in a 30% reduction in data retrieval times.",
-        "Collaborated with cross-functional teams to integrate new features based on user feedback, improving overall functionality and user satisfaction.",
-      ],
-      link: "https://media.licdn.com/dms/image/v2/D4D2DAQF3eiOw36f3ig/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1719375720524?e=1723212000&v=beta&t=Rwy3aTMOe100tM6JkDTuUz5tVmehCnbL3bOYB5p4Fdw",
-    },
-    {
-      title: "Junior Data Engineer",
-      company_name: "GrowUp Tech Solutions",
-      icon: "https://raw.githubusercontent.com/Hanan-Nawaz/Hanan-Nawaz/refs/heads/main/Supporting%20Material/growup.jpg",
+      title: "Junior Software Engineer",
+      company_name: "Medgateway Deutschland",
+      icon: 'https://medgateway.de/static/media/logo2.e28f79959f13c5b86291.jpeg',
+      date: "Aug 2024 - Feb 2025",
       iconBg: "#ffff",
-      date: "Aug 2023 - Oct 2023",
-      link: "",
       points: [
-        "Extract data from API and Database using Python (Pandas) and SQL, Transform raw data into usable data, and Load the usable data into Data warehouse.",
-        "Analyzed data in Data Warehouse using SQL and Python and provided stakeholders with visibility into the stats about grow station in Power Bi dashboard.",
+        "Built the company website from scratch using React.js (frontend) and Node.js (backend).",
+        "Designed and implemented the MySQL database (ERD, EERD).",
+        "Deployed the full-stack application on Namecheap.",
+        "Maintained the website post-launch: bug fixes, performance, and new feature integration.",
+        "Implemented multilingual support (German and English).",
+        "Developed key documentation: Gantt charts, functional requirements, and UML diagrams.",
+        "Built automated website testing using Python Selenium.",
+
       ],
-      link: "https://www.linkedin.com/in/abdulhanan0/overlay/1635546042749/single-media-viewer/?profileId=ACoAADbulhYBHKgrbiYnuIrYCDwbMm7ns0GpJk8",
     },
     {
-      title: "Full Stack Developer (Intern)",
-      company_name: "ITCON, NUML",
+      title: "Software Engineer & IT Support (Werkstudent)",
+      company_name: "National University of Modern Languages",
+      icon: uni,
+      date: "Nov 2023 - May 2024",
+      iconBg: "#383E56",
+      points: [
+        "Contributed to the development of the NUML Job Portal as part of a small, focused team.",
+        "Built the backend of the portal from scratch, helping deliver a fully functional system.",
+        "Developed the frontend interface to ensure a smooth and user-friendly experience.",
+        "Worked under the supervision of senior developers and participated in regular planning sessions.",
+        "Set up databases.",
+        "Provided technical support for software.",
+
+      ],
+    },
+    {
+      title: "Junior Software Engineer (part-time)",
+      company_name: "App Vizta (Pvt) Ltd.",
+      icon: 'https://appvizta.com/wp-content/uploads/2024/09/AppVizta-Logo-1.png',
+      iconBg: "#ffff",
+      date: "Mar 2023 - April 2023",
+      points: [
+        "Developed a charity web application from scratch within 2 months, handling the complete lifecycle from planning to deployment.",
+        "Built and integrated the frontend, backend, and database, ensuring a seamless user experience and secure data handling.",
+
+      ],
+    },
+    {
+      title: "Software Engineer & IT Support (Werkstudent)",
+      company_name: "National University of Modern Languages",
       icon: uni,
       iconBg: "#383E56",
       date: "Oct 2021 - May 2022",
-      link: "",
       points: [
-        "Leveraged SQL and MSSQL databases to design, manage, and optimize data storage, retrieval, and manipulation, enhancing system performance and reliability.",
-        "Successfully delivered two impactful projects, Minute Sheet Management System for NUML and Donations and Volunteer Management System for a welfare organization, showcasing strong project management and problem-solving skills.",
+      "Developed the Minute Sheet Management System, streamlining academic and administrative documentation processes.",
+      "Created the Donations and Volunteer Management System to support university fundraising and volunteer coordination.",
+      "Managed and optimized SQL and MSSQL databases to ensure performance and data integrity.",
+      "Assisted users in creating new accounts on the portal.",
+      "Helped users with password resets and login problems.",
       ],
-      link: "https://media.licdn.com/dms/image/v2/D4D2DAQF3eiOw36f3ig/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1719375720524?e=1723212000&v=beta&t=Rwy3aTMOe100tM6JkDTuUz5tVmehCnbL3bOYB5p4Fdw",
+    },
+    {
+      title: "Junior Software Engineer (Freelance)",
+      company_name: "Upwork",
+      icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEVHcEwFBQUHBwcAAAAFBQUCAgIDAwMCAgIEBAQDAwMAAAAGBgYBAQEzMzNISEhYWFiPj4/v7++7u7vl5eUeHh7////d3d2dnZ3V1dX5+fnMzMxoaGivr69/f39xcXGjXpfaAAAAH3RSTlMAJlmY1fb+HYrt/9ZE+vz47P/2/vr//fj4//n0+/r1u7WdCgAAAUtJREFUeAGVk9eigyAQRG2s2U2w4SBocv//M68Q0vu8cjhDzS7Ji7JSRKoqizx7TL1hkhTiTf0wTHITukXqrdyHtlfEjuVJeHeez/I0XL/0p6SWjbwKbaKA5DVRJ8HLrIqcRXSjJaRZIyKq7bpORzHnWUEiXT+ocH69MT3LOPQA7BQ7iqyUFYBTAYf3mJRBP88WmIKjzKoIzNEA7zC3wEI0DrCht8pUAqIB2npgH+TaogvryejaAJ6979sAqDkClAA3Hg3MvTdNAEaXgOA+wIS+FlAywS8BWDwOsaI69lk9tia0T97jr+HFYj4usow4YFwfPbMHvHEe0BK3WVAknDHWsQhhnW+NMYNOB5WzhKim0WmrjYxN0yhJR325rKhqAL69rLvrPgB0d9239713053g7skppeScqv78aD8/+9cPe1t/+nq/fd7X3/8ff6Ym1Dleb+sAAAAASUVORK5CYII=',
+      iconBg: "#ffff",
+      date: "Dec 2021 - Mar 2022",
+      points: [
+        "Created a dynamic and user-friendly platform for 'Learn by Doing Tasks,' enabling learners to acquire practical skills through hands-on activities, fostering an effective learning environment.",
+        "Designed and implemented responsive web interfaces, ensuring optimal user experience across various devices, enhancing accessibility for a diverse audience of learners.",
+        "Contributed to the advancement of online education by crafting engaging and visually appealing learning materials, thereby facilitating knowledge acquisition and skill development for a broad user base.",
+      ],
     },
   ];
   
   const educations = [
+    {
+      degree: "Master of Science",
+      branch:
+        "High Integrity systems",
+      marks:
+        "CGPA : - / 4.0",
+      name: "Frankfurt University of Applied Sciences, Frankfurt (Germany)",
+      year: "(2025 - Present)",
+      image: 'https://frankfurt-uas.de/wp-content/uploads/2024/07/FRA-UAS_Logo_negativ_RGB-400x161.png',
+    },
     {
       degree: "Bachelor of Science",
       branch:

@@ -25,7 +25,7 @@ const FeedbackCard = ({
           src={image}
           alt={`feedback_by-${name}`}
           width="80" height="80"
-          className='rounded-full object-cover'
+          className='rounded-full h-[100px] w-[100px]'
         />
         <div className='mt-3 flex-1 flex flex-col'>
           <p className='text-center text-white font-medium text-[16px]'>
