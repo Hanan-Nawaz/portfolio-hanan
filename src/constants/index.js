@@ -55,6 +55,10 @@ const technologies = [
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAe1BMVEXw208yMzDx32fw3FPx3mIwMTD44lAoKy9/djs1NjDy3U8sLi/75VH14FAhJS4mKS8cIS5lXjYVHC6Jfzzk0E2/r0YPGC13bznbyEtNSjNgWjYAEC2ZjT/KuUjDs0atn0KlmEFsZTi1pkTTwUnz4Xc/PjFVUTSQhT1IRTIylFD+AAADJUlEQVRoge2Y2ZajIBCGtbsFg4A04hKjictkef8nHIyoaJyJacw5fWHdGfETi6q/qmJ9vM/+WOh99mW90Tb4Bt/gG3yDb/ANvsE3+Abf4Bt8g/9meDsYGsEBVjYhAyCSuq4FAFP+cjjJ0u/WdAYBuXv2KGPU28UhID+EA5d6jUFHg4PjOYKOfTcH8nM12v0rcNgydv3zCLhckRWfx0Sjm8ARSqk9MZpqJ2sCB8EDW9Lj4cAN4Cg/PLJtm5/6UzWA44vXuZpyTrsL37G6T/s5HCWs88T+lOeny91HDis/e6f/HE5OyuN+DAhCBBeRfI8d4jUOtL+2RfsDzjh3LT2NDOBl62Uv7cKDlDkeKcCacEQm4mIAj7tra0YQTeFXXwXLFf+DbhAtVReK8hgf1NYQjgTvktLfFbN4kwwtYUd3KA3EI95EW5JIkxSfl/kUb6SKGdPotsf2E7xRsQDxiG57UZqAteCyEkXOGM8KsE6xkIYr3x/RbV6SFVSxNSLcAxzR6XfvGVO4hXASQ6o7hwUd3Rje4EXmMG+gHxK0GryRQ1LtB7xXghXhVtN5hbe+F4CqfKwFb/BBr2THteEyLtUKm2ZkEXzon+aSiIxqDxJq61DFyxM4EaJXkr7ydDWYoIILnY5VQkF3ARzhEyz78pu24eCcsbp5vDF40asQoYvhCNQX7rCwXYg+1ZNtQUYg+W50xdeyHYR0qc8JCrjXdN0JaIYSfKWaQ5G4stZLNBW4mVnkisRWicrCJ3BSwZbmsEJYVuL2cRaiBt61/FII3Vr+YCXXvlf3n8U5GSoBjaRS9+rE7gFEqqEMQU7PNyfq5XFBhpLdIBeaLlEVZjjWm3NHV65D/VRbUD0uM4riqU+eGyvUpwVdgP0nWkA109wfwi7KJX3u7VLPFzX/INSF9L5vfhpqJMIZg1O0HLnAskpEkn2k4R3m53r9tWSsH6DubY954eIaKrMwlbEApfmM7YtpGytjO7jJAbdZACn30gq80p8jII5ZEMduViWEzN1HSdUsiIMiFy9P0HIiAdLIdNfDAnJf0Mwukzu//y+RDf6KoS/r83328Rer3zeMCluSWgAAAABJRU5ErkJggg==",
   },
   {
+    name: "Python",
+    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
+  },
+  {
     name: "Node js",
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1180px-Node.js_logo.svg.png",
   },
@@ -73,10 +77,6 @@ const technologies = [
   {
     name: "Bootstrap",
     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/500px-Bootstrap_logo.svg.png",
-  },
-  {
-    name: "Tailwind",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/500px-Tailwind_CSS_logo.svg.png",
   },
   {
     name: "SQL",
