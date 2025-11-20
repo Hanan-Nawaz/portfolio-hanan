@@ -836,7 +836,7 @@ const experiences = [
     company_name: "ITCON, National University of Modern Languages - Islamabad, Pakistan",
     icon: uni,
     date: "Oct 2021 - May 2024",
-    iconBg: "#383E56",
+    iconBg: "#000000",
     points: [
       "Digitized manual approval workflows via the Minute Sheet Management System, reducing administrative turnaround time by $25\%$.",
       "Actively participated in Agile development sprints, including daily stand-ups and sprint planning, to facilitate timely delivery of complex features for the HR system.",
