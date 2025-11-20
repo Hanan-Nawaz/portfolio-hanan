@@ -865,7 +865,7 @@ const experiences = [
     title: "Software Engineer (Internship)",
     company_name: "App Vizta (Pvt) Ltd. - Islamabad, Pakistan",
     icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQF03K_Nyd6xig/company-logo_200_200/company-logo_200_200/0/1669316496093?e=1765411200&v=beta&t=XvUNgDdWtRVTptxMbcpeMRZXgdn6ZO_cl_nG5-fmlnM',
-    iconBg: "#ffff",
+    iconBg: "#383E56",
     date: "Jul 2021 - Aug 2021",
     points: [
       "Developed a charity web app that gained 1,000+ users within 60 days of launch..",
