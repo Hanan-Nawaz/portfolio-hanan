@@ -807,7 +807,7 @@ export const deProject = [
 
 const experiences = [
   {
-    title: "Software Engineer for Sustainability",
+    title: "Student Assistant - Software Engineer for Sustainability",
     company_name: "Water Spilting Group",
     icon: 'https://media.licdn.com/dms/image/v2/D560BAQF-xZaKSgsXlw/company-logo_200_200/B56ZfFFIghHUAM-/0/1751358147466?e=1765411200&v=beta&t=cjt6AJhkboCoOu9um1q514s8yeUjpRhUwgpvOQWK4IE',
     date: "Dec 2025 - Current",
