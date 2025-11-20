@@ -808,7 +808,7 @@ export const deProject = [
 const experiences = [
   {
     title: "Student Assistant - Software Engineer for Sustainability",
-    company_name: "Water Spilting Group",
+    company_name: "Water Spilting Group - Jena, Germany",
     icon: 'https://media.licdn.com/dms/image/v2/D560BAQF-xZaKSgsXlw/company-logo_200_200/B56ZfFFIghHUAM-/0/1751358147466?e=1765411200&v=beta&t=cjt6AJhkboCoOu9um1q514s8yeUjpRhUwgpvOQWK4IE',
     date: "Dec 2025 - Current",
     iconBg: "#ffff",
@@ -818,7 +818,7 @@ const experiences = [
   },
   {
     title: "Software Engineer (Remote)",
-    company_name: "Medgateway Deutschland",
+    company_name: "Medgateway Deutschland - Erndtebrück, Germany", 
     icon: 'https://medgateway.de/static/media/logo2.e28f79959f13c5b86291.jpeg',
     date: "Jun 2024 - Feb 2025",
     iconBg: "#ffff",
@@ -833,7 +833,7 @@ const experiences = [
   },
   {
     title: "Software Engineer (Part-time)",
-    company_name: "National University of Modern Languages",
+    company_name: "ITCON, National University of Modern Languages - Islamabad, Pakistan",
     icon: uni,
     date: "Oct 2021 - May 2024",
     iconBg: "#383E56",
@@ -851,7 +851,7 @@ const experiences = [
   
   {
     title: "Werkstudent Software Engineer (Remote)",
-    company_name: "Upwork",
+    company_name: "Upwork - Vienna, Austria",
     icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAXVBMVEVHcEwFBQUHBwcAAAAFBQUCAgIDAwMCAgIEBAQDAwMAAAAGBgYBAQEzMzNISEhYWFiPj4/v7++7u7vl5eUeHh7////d3d2dnZ3V1dX5+fnMzMxoaGivr69/f39xcXGjXpfaAAAAH3RSTlMAJlmY1fb+HYrt/9ZE+vz47P/2/vr//fj4//n0+/r1u7WdCgAAAUtJREFUeAGVk9eigyAQRG2s2U2w4SBocv//M68Q0vu8cjhDzS7Ji7JSRKoqizx7TL1hkhTiTf0wTHITukXqrdyHtlfEjuVJeHeez/I0XL/0p6SWjbwKbaKA5DVRJ8HLrIqcRXSjJaRZIyKq7bpORzHnWUEiXT+ocH69MT3LOPQA7BQ7iqyUFYBTAYf3mJRBP88WmIKjzKoIzNEA7zC3wEI0DrCht8pUAqIB2npgH+TaogvryejaAJ6979sAqDkClAA3Hg3MvTdNAEaXgOA+wIS+FlAywS8BWDwOsaI69lk9tia0T97jr+HFYj4usow4YFwfPbMHvHEe0BK3WVAknDHWsQhhnW+NMYNOB5WzhKim0WmrjYxN0yhJR325rKhqAL69rLvrPgB0d9239713053g7skppeScqv78aD8/+9cPe1t/+nq/fd7X3/8ff6Ym1Dleb+sAAAAASUVORK5CYII=',
     iconBg: "#ffff",
     date: "Dec 2021 - Mar 2022",
@@ -863,8 +863,8 @@ const experiences = [
   },
   {
     title: "Software Engineer (Internship)",
-    company_name: "App Vizta (Pvt) Ltd.",
-    icon: 'https://appvizta.com/wp-content/uploads/2024/09/AppVizta-Logo-1.png',
+    company_name: "App Vizta (Pvt) Ltd. - Islamabad, Pakistan",
+    icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQF03K_Nyd6xig/company-logo_200_200/company-logo_200_200/0/1669316496093?e=1765411200&v=beta&t=XvUNgDdWtRVTptxMbcpeMRZXgdn6ZO_cl_nG5-fmlnM',
     iconBg: "#ffff",
     date: "Jul 2021 - Aug 2021",
     points: [
