@@ -836,7 +836,7 @@ const experiences = [
     company_name: "ITCON, National University of Modern Languages - Islamabad, Pakistan",
     icon: uni,
     date: "Oct 2021 - May 2024",
-    iconBg: "#000000",
+    iconBg: "#383E56",
     points: [
       "Digitized manual approval workflows via the Minute Sheet Management System, reducing administrative turnaround time by $25\%$.",
       "Actively participated in Agile development sprints, including daily stand-ups and sprint planning, to facilitate timely delivery of complex features for the HR system.",
@@ -865,7 +865,7 @@ const experiences = [
     title: "Software Engineer (Internship)",
     company_name: "App Vizta (Pvt) Ltd. - Islamabad, Pakistan",
     icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQF03K_Nyd6xig/company-logo_200_200/company-logo_200_200/0/1669316496093?e=1765411200&v=beta&t=XvUNgDdWtRVTptxMbcpeMRZXgdn6ZO_cl_nG5-fmlnM',
-    iconBg: "#383E56",
+    iconBg: "#000000",
     date: "Jul 2021 - Aug 2021",
     points: [
       "Developed a charity web app that gained 1,000+ users within 60 days of launch..",
